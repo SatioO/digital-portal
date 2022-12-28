@@ -1,7 +1,7 @@
 import NextAuth from 'next-auth';
 import KeycloakProvider from 'next-auth/providers/keycloak';
 
-const authOptions = {
+export const authOptions = {
   providers: [
     KeycloakProvider({
       clientId: process.env.KEYCLOAK_CLIENT_ID as string,
@@ -13,5 +13,4 @@ const authOptions = {
   ],
 };
 
-// eslint-disable-next-line import/no-anonymous-default-export
 export default NextAuth(authOptions);
