@@ -1,7 +1,8 @@
-import { AppProps } from 'next/app';
 import Image from 'next/image';
 
-export default function Home(props: AppProps): JSX.Element {
+type HomeProps = {};
+
+export default function Home(props: HomeProps) {
   return (
     <div>
       <section className="overflow-hidden text-gray-700 text-secondary-light">
