@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Home(props: AppProps): JSX.Element {
   return (
     <div>
-      <section className="overflow-hidden text-gray-700 ">
+      <section className="overflow-hidden text-gray-700 text-secondary-light">
         <div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
           <div className="flex flex-wrap -m-1 md:-m-2">
             <div className="flex flex-wrap w-1/3">
